@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>Age: <span>{this.props.age}</span></div>
+        <div>Age : <span>{this.props.age}</span></div>
         {/* <button onClick={()=>this.props.dispatch({type:'AGE_UP'})}>Age UP</button> */}
         <button onClick={this.props.onAgeUp}>Age UP</button>
         <button onClick={this.props.onAgeDown}>Age DOWN</button>
